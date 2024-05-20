@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Add Admin CSS
- * Version:     2.0.1
+ * Version:     2.0.1.1
  * Plugin URI:  https://coffee2code.com/wp-plugins/add-admin-css/
- * Author:      Scott Reilly
+ * Author:      Scott Reilly + Daniel Purifoy
  * Author URI:  https://coffee2code.com/
  * Text Domain: add-admin-css
  * License:     GPLv2 or later
