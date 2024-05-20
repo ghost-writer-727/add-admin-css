@@ -31,9 +31,9 @@ Compatible with WordPress 4.9 through 5.7+.
 
 defined( 'ABSPATH' ) or die();
 
-if ( ! class_exists( 'c2c_Plugin_063' ) ) :
+if ( ! class_exists( 'c2c_Plugin_063_1' ) ) :
 
-abstract class c2c_Plugin_063 {
+abstract class c2c_Plugin_063_1 {
 	public $config;
 	public $disable_contextual_help;
 	public $disable_update_check;

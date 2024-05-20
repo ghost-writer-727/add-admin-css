@@ -184,7 +184,7 @@ class Add_Admin_CSS_Test extends WP_UnitTestCase {
 	}
 
 	public function test_plugin_framework_class_name() {
-		$this->assertTrue( class_exists( 'c2c_Plugin_063' ) );
+		$this->assertTrue( class_exists( 'c2c_Plugin_063_1' ) );
 	}
 
 	public function test_plugin_framework_version() {
