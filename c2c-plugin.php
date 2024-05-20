@@ -519,7 +519,7 @@ abstract class c2c_Plugin_063_1 {
 	 *
 	 * @since 060
 	 *
-	 * @return string[]
+	 * @return array|string Translated strings.
 	 */
 	abstract public function get_c2c_string( $string );
 
