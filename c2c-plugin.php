@@ -1,8 +1,8 @@
 <?php
 /**
  * @package C2C_Plugin
- * @author  Scott Reilly
- * @version 063
+ * @author  Scott Reilly + Daniel Purifoy
+ * @version 063.1
  */
 /*
 Basis for other plugins.
@@ -34,6 +34,28 @@ defined( 'ABSPATH' ) or die();
 if ( ! class_exists( 'c2c_Plugin_063' ) ) :
 
 abstract class c2c_Plugin_063 {
+	public $config;
+	public $disable_contextual_help;
+	public $disable_update_check;
+	public $admin_options_name;
+	public $hook_prefix;
+	public $form_name;
+	public $menu_name;
+	public $name;
+	public $nonce_field;
+	public $settings_page;
+	public $show_admin;
+	public $textdomain;
+	public $textdomain_subdir;
+	public $author_prefix;
+	public $id_base;
+	public $options_page;
+	public $plugin_basename;
+	public $plugin_file;
+	public $plugin_path;
+	public $u_id_base;
+	public $version;
+
 	protected $plugin_css_version = '009';
 	protected $options            = array();
 	protected $options_from_db    = '';
